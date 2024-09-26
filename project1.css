@@ -1,0 +1,882 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Banner Image Section */
+.banner {
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+img {
+    width: 100vw;
+    height: 61vh;
+    display: inline-block;
+}
+
+/* Title Section */
+header .title {
+    text-align: left;
+    padding-top: 9px;
+    text-indent: 150px;
+}
+
+header .title h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0077cc;
+}
+
+header .title h1 span {
+    color: #666;
+    font-weight: normal;
+}
+
+header .title p {
+    font-size: 1.6rem;
+    color: #999;
+    text-indent: 280px;
+    padding-top: 0px;
+}
+
+/* Navigation Section */
+.nav-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 20px ;
+}
+
+.nav-item {
+    text-align: center;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    height: 150px;
+    width: 170px;
+}
+
+nav .nav-item p {
+    font-size: 20px;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    color: grey;
+}
+
+.helo {
+    font-size: 35px;
+    color: rgb(66, 66, 199);
+    padding-top: 20px;
+}
+
+/* Popup Section */
+.popup {
+    width: 100%;
+    height:650px;
+    /*background-color: #fff;*/
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 40px auto;
+}
+
+.header1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e9e9e9;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.header1 h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.return-home {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.return-home:hover {
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 5px;
+    box-sizing: border-box;
+    padding-left: 20px;
+
+}
+
+.columntext{
+    padding-top: 30px;
+    line-height: 1.2;
+    font-size: 35px;
+}
+
+.columntext h2{
+    color:blue;
+}
+
+
+.columnimage img {
+    width: 85%; /* Make image responsive */
+    border-radius: 0px;
+    padding-top: 20px;
+    height:100vh;
+    padding-bottom: 40px;
+}
+
+.text {
+    color: rgb(134, 144, 146);
+}
+
+.text p {
+    margin: 15px 0;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.text strong {
+    color:black;
+}
+
+.note {
+    color: black;
+}
+
+.next-page {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.next-page:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*.jadio{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}*/
+
+.nithin-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 50px;
+    margin-left: 20px;
+}
+
+.nithin-gallery-left {
+    width: 65%;
+}
+
+.jadi {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.nithin-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding-left: 20px;
+}
+
+.nithin-gallery-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.nithin-gallery-grid img:hover {
+    transform: scale(1.1);
+}
+
+.nithin-pagination {
+    margin-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.nithin-pagination a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    color: #007bff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nithin-pagination a.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.nithin-pagination a:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.nithin-gallery-right {
+    width: 30%;
+    margin-left: 50px;
+    /*background-color: #f0f0f0;*/
+    border-radius: 5px;
+
+}
+
+.nithin-categories {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+
+.nithin-categories li {
+    margin-bottom: 10px;
+    line-height:1.3;
+}
+
+.nithin-categories li a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.nithin-categories li a.active {
+    font-weight: bold;
+}
+
+.nithin-categories li a i {
+    margin-right: 10px;
+}
+
+.nithp1{
+    padding:px;
+    line-height: 1.2;
+    font-size: 30px;
+}
+.nithp2{
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height:1.2;
+}
+/* Add hover effects for categories */
+.nithin-categories li a:hover {
+    color: #0056b3;
+}
+
+/* Dummy icon classes */
+.nithin-icon-all::before {
+    content: "🗂";
+}
+
+.nithin-icon-portrait::before {
+    content: "🖼";
+}
+
+.nithin-icon-nature::before {
+    content: "🌿";
+}
+
+.nithin-icon-animals::before {
+    content: "🐾";
+}
+
+.nithin-icon-buildings::before {
+    content: "🏙";
+}
+
+
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.akhil-container {
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    margin: auto;
+    height: auto;
+    /*background-color: white;*/
+}
+
+/* Left Side - Description Styling */
+.akhil-testimonials-left {
+    width: 30%;
+    padding: 10px;
+    /*border-right: 1px solid #ddd;*/
+}
+
+.akhil-testimonials-left h1 {
+    font-size: 40px;
+    color:blue;
+}
+
+.akhil-testimonials-left p {
+    font-size: 20px;
+    color: #555;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.akhil-testimonials-left em {
+    color: #777;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.akhil-testimonials-left strong {
+    color: #333;
+}
+
+/* Middle Side - First Testimonial */
+.akhil-testimonials-middle {
+    width: 35%;
+    padding-left: 20px;
+    padding-top: 25px;
+    text-align: left;
+}
+
+.akhil-testimonials-middle img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.akhil-testimonials-middle p {
+    font-size: 23px;
+    color: #555;
+    padding:15px;
+}
+
+
+/* Right Side - Second Testimonial */
+.akhil-testimonials-right {
+    width: 30%;
+    padding: px;
+    text-align: left;
+}
+
+.akhil-testimonials-right img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+    padding-top: 30px;
+}
+
+.akhil-testimonials-right p {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    color: #555;
+    padding-top: 45px;
+}
+
+/* Contact Button */
+.akhil-btn-submit {
+    display: inline-block;
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.akhil-btn-submit:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.akhil-contact {
+    padding-left: 180px;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.rak-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.rak-content-left {
+    width: 50%;
+}
+
+h1 {
+    color: #007bff;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.rak-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 22px;
+
+}
+
+.rak-content-right {
+    width: 45%;
+    padding-left: 20px;
+    padding-top: 25px;
+    border-radius: 5px;
+    padding-top: 80px;
+    line-height: 2;
+}
+
+.rak-content-right p{
+    padding-top: 30px;
+}
+
+.rak-contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.rak-contact-button:hover {
+    background-color: #0056b3;
+}
+
+.rak-colorspan {
+    color: #0056b3;
+}
+
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.promo-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height:650px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: px;
+}
+
+/* Left Side - Contact Form Styling */
+.promo-contact-left {
+    width: 50%;
+    padding: 20px;
+}
+
+.promo-contact-left h2 {
+    color: #007bff;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.promo-contact-left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-contact-left label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.promo-contact-left input, .promo-contact-left select, .promo-contact-left textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.promo-contact-left textarea {
+    height: 100px;
+}
+
+.promo-btn-submit {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.promo-btn-submit:hover {
+    background-color: #0056b3;
+}
+
+/* Right Side - Map and Contact Details */
+.promo-contact-right {
+    width: 45%;
+    padding: 20px;
+}
+
+.promo-contact-right iframe {
+    border: 0;
+    border-radius: 5px;
+    width: 100%;
+    height: 250px;
+}
+
+.promo-contact-details {
+    margin-top: 20px;
+}
+
+.promo-contact-details p {
+    margin: 10px 0;
+    color: #555;
+}
+
+.promo-contact-details strong {
+    color: #333;
+}
+
+@media only screen and (max-width: 1024px) {
+    .nithin-categories {
+        list-style-type: none;
+        margin-bottom: 20px;
+        padding-left: 80px;
+    }
+    .nithin-categories li {
+        margin-bottom: 5px;
+        line-height:1.0;
+    }
+    .nithp1{
+        padding:px;
+        line-height: 1;
+        font-size: 18px;
+    }
+    .nithp2{
+        font-size: 18px;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height:1;
+    }
+    .akhil-contact {
+        padding-left: 100px;
+    }
+
+    .akhil-testimonials-left p {
+        font-size: 20px;
+        color: #555;
+        line-height: 1.1;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: 12px;
+        padding-left: 10px;
+    }
+    .next-page {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .columntext{
+        padding-top: 12px;
+        line-height: 0.6;
+        font-size: 15px;
+    }
+
+    .columntext .hea1{
+        font-size: 30px;
+        line-height: 1;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .nithin-categories {
+        list-style-type: none;
+        margin-bottom: 8px;
+        padding-left: 40px;
+        font-size: small;
+    }
+    .nithin-categories li {
+        margin-bottom: 5px;
+        line-height:1.0;
+    }
+    .nithp1{
+        padding:px;
+        line-height: 1;
+        font-size: 14px;
+    }
+    .nithp2{
+        font-size: 14px;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-top: 0px;
+        line-height:1;
+    }
+    .columnimage img {
+        width: 95%; 
+        border-radius: 0px;
+        padding-top: 15px;
+        height:120%;
+        padding-bottom: px;
+    }
+    .columntext{
+        padding-top: 10px;
+        line-height: 1;
+        font-size: 5px;
+    }
+    .akhil-testimonials-left p {
+        font-size: 18.5px;
+        color: #555;
+        font-family: 'Times New Roman', Times, serif;
+        padding-top: px;
+        padding-left: 5px;
+    }
+    .akhil-testimonials-middle p {
+        font-size: 20px;
+        color: #555;
+        padding-top:13px;
+        /*line-height: 1.3;*/
+    }
+    .akhil-testimonials-right p {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+        color: #555;
+        padding-top: 10px;
+    }
+    .akhil-testimonials-left .akhil-testi{
+        line-height: 0.8;
+        padding-top: 0px;
+
+    }
+    .columntext p{
+        font-size: 15px;
+    }
+    .popup{
+        height: 100%;
+    }
+
+    .akhil-contact {
+        padding-left: 60px;
+    }
+
+    
+    .next-page {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+
+    .columntext .hea1{
+        font-size: 28px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    /* Adjust the banner image */
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust the header title */
+    header .title {
+        text-indent: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    header .title h1 {
+        font-size: 2rem;
+    }
+
+    header .title p {
+        font-size: 1.2rem;
+        text-indent: 0;
+        padding: 0;
+    }
+
+    /* Navigation items */
+    .nav-icons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    nav .nav-item p {
+        font-size: 18px;
+    }
+
+    /* Popup Section */
+    .popup {
+        height: auto;
+        padding: 20px;
+    }
+
+    .header1 h2 {
+        font-size: 1.2em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .columnimage img {
+        width: 100%;
+        height: auto;
+    }
+
+    .columntext {
+        padding-top: 15px;
+        font-size: 20px;
+    }
+
+    /* Nithin Gallery */
+    .nithin-container {
+        flex-direction: column;
+    }
+
+    .nithin-gallery-left,
+    .nithin-gallery-right {
+        width: 100%;
+    }
+
+    .nithin-gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .nithin-categories {
+        padding-left: 0;
+    }
+
+    /* Testimonials Section */
+    .akhil-container {
+        flex-direction: column;
+    }
+
+    .akhil-testimonials-left,
+    .akhil-testimonials-middle,
+    .akhil-testimonials-right {
+        width: 100%;
+    }
+
+    .akhil-testimonials-middle img,
+    .akhil-testimonials-right img {
+        width: 100%;
+    }
+
+    /* Contact Section */
+    .promo-container {
+        flex-direction: column;
+    }
+
+    .promo-contact-left,
+    .promo-contact-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .promo-contact-right iframe {
+        height: 200px;
+    }
+}
